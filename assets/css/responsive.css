@@ -1,0 +1,148 @@
+@media all and (max-width: 1200px){
+	.container{
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+}
+
+@media all and (max-width: 990px){
+	.company{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 40px;
+		justify-items: center;
+	}
+	.footer{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 100px;
+	}
+}
+
+@media all and (max-width: 767px){
+	.menu{
+		position: absolute;
+		background: #333333;
+		width: 100%;
+		left: 0;
+		height: 100vh;
+		z-index: 9;
+		top: 0;
+		padding: 20px;
+		box-sizing: border-box;
+		display: none;
+		
+	}
+	.menu ul{
+		flex-direction: column;
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	.menu ul li{
+		line-height: 30px;
+	}
+	.menu-bar{
+	    display: block;  
+	}
+	.logo {
+	    z-index: 9999;
+	}
+	.menu-bar {
+	    z-index: 9999;
+	}
+	.menu-icon{
+		 z-index: 9999;
+	}
+
+	.banner-content1 h1{
+		font-size: 4.3rem;
+	}	
+	.banner-content2 h1{
+		font-size: 4.3rem;
+	}	
+	.banner-content3 h1{
+		font-size: 4.3rem;
+	}	
+	.hero{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.hero-button .btn{
+		margin-top: 50px;
+	}
+	.service{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 40px;
+	}
+	.service .single-service:nth-child(3){
+		grid-column: span 2;
+		max-width: 400px;
+		width: 100%;
+		margin: auto;
+		margin-top: 50px;
+	}
+	.people{
+		grid-template-columns: repeat(1, 1fr);
+		margin-bottom: 50px;
+	}
+
+	.worker-title ul li{
+		margin-bottom: 2rem;
+	}
+	.worker-items{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 40px;	
+	}
+	.customer{
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 50px;
+	}
+	.button3 .btn{
+		margin-top: 30px;
+	}
+	.news{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 80px;
+	}
+	.news .news-service:nth-child(3){
+		grid-column: span 2;
+		max-width: 400px;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+
+@media all and (max-width: 575px){
+	.service{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.service .single-service:nth-child(3){
+		grid-column: span 1;
+		max-width: 100%;
+	}
+
+	.worker-items{
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.single-customer{
+		flex-direction: column;
+		margin-bottom: 3rem;
+	}
+	.customer-img img{
+		margin: auto;
+	}
+
+	.news{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.news .news-service:nth-child(3){
+		grid-column: span 1;
+		max-width: 100%;
+	}
+	.footer{
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 50px;
+	}
+}
+
