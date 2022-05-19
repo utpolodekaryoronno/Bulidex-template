@@ -25,6 +25,7 @@ $(document).ready(function(){
 		backgroundColor: "#17212a",
 		opener: "trigger",
 		maxweight: "700",
+		type: 'iframe',
 		idvideo: "example" 
 	});
 
