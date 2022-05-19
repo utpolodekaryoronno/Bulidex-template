@@ -21,23 +21,13 @@ $(document).ready(function(){
 
 
 	// VideoPopUp
-// 	$('#vidBox').VideoPopUp({
-// 		backgroundColor: "#17212a",
-// 		opener: "trigger",
-// 		maxweight: "700",
-// 		type: 'iframe',
-// 		idvideo: "example" 
-// 	});
-	$('#vidBox').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		mainClass: 'mfp-fade',
-		removalDelay: 160,
-		preloader: false,
-
-		fixedContentPos: false
+	$('#vidBox').VideoPopUp({
+		backgroundColor: "#17212a",
+		opener: "trigger",
+		maxweight: "700",
+		idvideo: "example" 
 	});
-
+	
 	// hero-area2
 	// counter up
 	$('.count-num').rCounter({
