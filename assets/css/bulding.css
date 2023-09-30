@@ -285,6 +285,19 @@ font-family: 'Roboto', sans-serif; */
 .owl-carousel .owl-nav button.owl-prev{
 	left: 1rem;
 }
+.owl-carousel .owl-nav button.owl-next span{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4px;
+}
+.owl-carousel .owl-nav button.owl-prev span{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1px;
+}
+
 .banner-area .owl-dots {
 	position: absolute;
 	width: 100%;
